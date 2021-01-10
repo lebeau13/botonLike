@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'boton-like';
+  public likes = 100;
+  public isLiked = false;
+
+  LikesBoton() {
+    if (this.isLiked == true) {
+      this.likes--;
+      this.isLiked=false;
+    }
+    else {
+      this.likes++;
+      this.isLiked=true;
+    }
+  }
 }

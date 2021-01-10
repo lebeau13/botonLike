@@ -1,0 +1,14 @@
+.like{
+border:solid;
+border-color: blue;
+color:blue;
+width: 20%;
+padding: 5%;
+}
+.nolike{
+    background:rgb(216, 216, 216);
+    border:none;
+    color:rgb(73, 73, 161);
+    width: 20%;
+    padding: 5%;
+    }
